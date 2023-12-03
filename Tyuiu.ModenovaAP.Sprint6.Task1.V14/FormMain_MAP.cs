@@ -49,7 +49,7 @@ namespace Tyuiu.ModenovaAP.Sprint6.Task1.V14
             }
         }
 
-        private void buttonInfo_IME_Click(object sender, EventArgs e)
+        private void buttoninfo_MAP_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Таск 1 выполнил студент группы ИИПб-23-3 Моденова Анастасия Павловна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }

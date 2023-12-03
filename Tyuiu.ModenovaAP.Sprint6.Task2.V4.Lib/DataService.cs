@@ -11,7 +11,16 @@ namespace Tyuiu.ModenovaAP.Sprint6.Task2.V4.Lib
     {
         public double[] GetMassFunction(int startValue, int stopValue)
         {
-            throw new NotImplementedException();
+            double[] result = new double[(stopValue - startValue) + 1];
+            double y;
+
+            int count = 0;
+            for (int x = startValue; x <= stopValue; x++)
+            {
+                y = Math.Round(((5 * x + 2.5) / (Math.Sin(x) + 2) + 2 * x + 2), 2);
+                result[count++] = y;
+            }
+            return result;
         }
     }
 }
