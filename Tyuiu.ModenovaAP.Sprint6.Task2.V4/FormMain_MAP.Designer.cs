@@ -68,6 +68,8 @@ namespace Tyuiu.ModenovaAP.Sprint6.Task2.V4
             this.buttonuse_MAP.Text = "Выполнить";
             this.buttonuse_MAP.UseVisualStyleBackColor = false;
             this.buttonuse_MAP.Click += new System.EventHandler(this.buttonuse_MAP_Click);
+            this.buttonuse_MAP.MouseDown += new System.Windows.Forms.MouseEventHandler(this.buttonuse_MAP_MouseDown);
+            this.buttonuse_MAP.MouseEnter += new System.EventHandler(this.buttonuse_MAP_MouseEnter);
             // 
             // buttoninfo_MAP
             // 
