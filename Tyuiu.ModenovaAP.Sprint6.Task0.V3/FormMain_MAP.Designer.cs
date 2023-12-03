@@ -105,6 +105,7 @@ namespace Tyuiu.ModenovaAP.Sprint6.Task0.V3
             this.labelres.Size = new System.Drawing.Size(62, 13);
             this.labelres.TabIndex = 1;
             this.labelres.Text = "Результат:";
+            this.labelres.Click += new System.EventHandler(this.labelres_Click);
             // 
             // labelperem
             // 

@@ -42,5 +42,10 @@ namespace Tyuiu.ModenovaAP.Sprint6.Task0.V3
                 e.Handled = true;
             }
         }
+
+        private void labelres_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
