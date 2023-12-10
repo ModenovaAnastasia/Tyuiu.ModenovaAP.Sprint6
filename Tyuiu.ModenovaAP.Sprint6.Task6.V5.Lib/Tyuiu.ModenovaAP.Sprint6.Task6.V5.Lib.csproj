@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E7B1D3CB-C1BB-4C57-AED1-92801E1144DE}</ProjectGuid>
+    <ProjectGuid>{BA899A6D-82DE-42FA-B076-646861920961}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.ModenovaAP.Sprint6.Task3.V4.Lib</RootNamespace>
-    <AssemblyName>Tyuiu.ModenovaAP.Sprint6.Task3.V4.Lib</AssemblyName>
+    <RootNamespace>Tyuiu.ModenovaAP.Sprint6.Task6.V5.Lib</RootNamespace>
+    <AssemblyName>Tyuiu.ModenovaAP.Sprint6.Task6.V5.Lib</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -39,8 +39,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="tyuiu.cources.programming.interfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="tyuiu.cources.programming.interfaces">
       <HintPath>..\tyuiu.cources.programming.interfaces.dll</HintPath>
     </Reference>
   </ItemGroup>
