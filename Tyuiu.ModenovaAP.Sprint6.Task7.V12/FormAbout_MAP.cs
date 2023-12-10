@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tyuiu.ModenovaAP.Sprint6.Task6.V5
+namespace Tyuiu.ModenovaAP.Sprint6.Task7.V12
 {
     public partial class FormAbout_MAP : Form
     {

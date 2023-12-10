@@ -1,5 +1,5 @@
 ﻿
-namespace Tyuiu.ModenovaAP.Sprint6.Task6.V5
+namespace Tyuiu.ModenovaAP.Sprint6.Task7.V12
 {
     partial class FormAbout_MAP
     {
@@ -30,24 +30,24 @@ namespace Tyuiu.ModenovaAP.Sprint6.Task6.V5
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAbout_MAP));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxAva_MAP = new System.Windows.Forms.PictureBox();
             this.labelInfo_MAP = new System.Windows.Forms.Label();
             this.buttonOk_MAP = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAva_MAP)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pictureBoxAva_MAP
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(101, 142);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxAva_MAP.Location = new System.Drawing.Point(13, 13);
+            this.pictureBoxAva_MAP.Name = "pictureBoxAva_MAP";
+            this.pictureBoxAva_MAP.Size = new System.Drawing.Size(112, 143);
+            this.pictureBoxAva_MAP.TabIndex = 0;
+            this.pictureBoxAva_MAP.TabStop = false;
             // 
             // labelInfo_MAP
             // 
             this.labelInfo_MAP.AutoSize = true;
-            this.labelInfo_MAP.Location = new System.Drawing.Point(119, 12);
+            this.labelInfo_MAP.Location = new System.Drawing.Point(132, 13);
             this.labelInfo_MAP.Name = "labelInfo_MAP";
             this.labelInfo_MAP.Size = new System.Drawing.Size(284, 117);
             this.labelInfo_MAP.TabIndex = 1;
@@ -55,7 +55,7 @@ namespace Tyuiu.ModenovaAP.Sprint6.Task6.V5
             // 
             // buttonOk_MAP
             // 
-            this.buttonOk_MAP.Location = new System.Drawing.Point(384, 137);
+            this.buttonOk_MAP.Location = new System.Drawing.Point(334, 136);
             this.buttonOk_MAP.Name = "buttonOk_MAP";
             this.buttonOk_MAP.Size = new System.Drawing.Size(75, 23);
             this.buttonOk_MAP.TabIndex = 2;
@@ -67,14 +67,14 @@ namespace Tyuiu.ModenovaAP.Sprint6.Task6.V5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(477, 167);
+            this.ClientSize = new System.Drawing.Size(421, 171);
             this.Controls.Add(this.buttonOk_MAP);
             this.Controls.Add(this.labelInfo_MAP);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBoxAva_MAP);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "FormAbout_MAP";
-            this.Text = "О программе";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Text = "О приложении";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAva_MAP)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -82,7 +82,7 @@ namespace Tyuiu.ModenovaAP.Sprint6.Task6.V5
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBoxAva_MAP;
         private System.Windows.Forms.Label labelInfo_MAP;
         private System.Windows.Forms.Button buttonOk_MAP;
     }

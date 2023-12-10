@@ -44,6 +44,7 @@ namespace Tyuiu.ModenovaAP.Sprint6.Task6.V5
             this.textBoxOutput_MAP = new System.Windows.Forms.TextBox();
             this.openFileDialogTask_MAP = new System.Windows.Forms.OpenFileDialog();
             this.toolTipButton_MAP = new System.Windows.Forms.ToolTip(this.components);
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBoxUslovie_MAP.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -227,6 +228,7 @@ namespace Tyuiu.ModenovaAP.Sprint6.Task6.V5
         private System.Windows.Forms.TextBox textBoxOutput_MAP;
         private System.Windows.Forms.OpenFileDialog openFileDialogTask_MAP;
         private System.Windows.Forms.ToolTip toolTipButton_MAP;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 
